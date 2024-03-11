@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Schedule</title>
+    <style>
+        /* CSS code here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        form {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            color: #333333;
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        th {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+        input[type="text"], input[type="date"], input[type="time"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus, input[type="date"]:focus, input[type="time"]:focus {
+            outline: none;
+            border-color: #c80626;
+            background-color: #f8f9fa;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            color: #ffffff;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            width: 150px;
+            height: 60px;
+            font-size: 18px;
+            background-color: #007bff;
+            border: none;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #0056b3;
+        }
+
+        .container {
+            max-width: 150px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 100px;
+            color: white;
+        }
+
+        img.center {
+            display: block;
+            margin: 0 auto;
+            max-width: 130px;
+            max-height: 130px;
+        }
+
+        .oldbutton button {
+            color:black;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            width: 300px;
+            height: 60px;
+            font-size: 30px;
+            border-color: black;
+            border-radius: 50px;
+            border-width: 10px;
+            margin-left: 613px;
+        }
+
+        .oldbutton button:hover {
+            background-color: lightblue;
+            width: 350px;
+        }
+
+    </style>
+</head>
+<body>
+<br><br>
+<div class="container">
+    <img src="C:\\recipebookk\\delish.png" alt="Your Company Logo" class="center">
+</div>
+<br>
+<div class="oldbutton">
+    <a href="oldschedule.html"><button id="oldschedulesBtn">My Old schedule</button></a><br><br>
+</div>
+<form>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Day</th>
+            <th>Breakfast Recipe</th>
+            <th>Lunch Recipe</th>
+            <th>Dinner Recipe</th>
+        </tr>
+        <tr>
+            <td><input type="date" name="monday_date"></td>
+            <td>Monday</td>
+            <td><input type="text" name="monday_breakfast"></td>
+            <td><input type="text" name="monday_lunch"></td>
+            <td><input type="text" name="monday_dinner"></td>
+        </tr>
+        <tr>
+            <td><input type="date" name="tuesday_date"></td>
+            <td>Tuesday</td>
+            <td><input type="text" name="tuesday_breakfast"></td>
+            <td><input type="text" name="tuesday_lunch"></td>
+            <td><input type="text" name="tuesday_dinner"></td>
+        </tr>
+        <tr>
+            <td><input type="date" name="wednesday_date"></td>
+            <td>Wednesday</td>
+            <td><input type="text" name="wednesday_breakfast"></td>
+            <td><input type="text" name="wednesday_lunch"></td>
+            <td><input type="text" name="wednesday_dinner"></td>
+        </tr>
+        <tr>
+            <td><input type="date" name="thursday_date"></td>
+            <td>Thursday</td>
+            <td><input type="text" name="thursday_breakfast"></td>
+            <td><input type="text" name="thursday_lunch"></td>
+            <td><input type="text" name="thursday_dinner"></td>
+        </tr>
+        <tr>
+            <td><input type="date" name="friday_date"></td>
+            <td>Friday</td>
+            <td><input type="text" name="friday_breakfast"></td>
+            <td><input type="text" name="friday_lunch"></td>
+            <td><input type="text" name="friday_dinner"></td>
+        </tr>
+        <tr>
+            <td><input type="date" name="saturday_date"></td>
+            <td>Saturday</td>
+            <td><input type="text" name="saturday_breakfast"></td>
+            <td><input type="text" name="saturday_lunch"></td>
+            <td><input type="text" name="saturday_dinner"></td>
+        </tr>
+        <tr>
+            <td><input type="date" name="sunday_date"></td>
+            <td>Sunday</td>
+            <td><input type="text" name="sunday_breakfast"></td>
+            <td><input type="text" name="sunday_lunch"></td>
+            <td><input type="text" name="sunday_dinner"></td>
+        </tr>
+    </table>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear All">
+</form>
+<br><br>
+</

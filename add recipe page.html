@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add New Recipe</title>
+  <link rel="stylesheet" href="add recipe cSs.css">
+</head>
+<body>
+<!--<header>
+  <img src="C:\\recipebookk\\delish.png" alt="Your Company Logo" class="logo">
+  <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>-->
+  
+  <h1>Add New Recipe</h1>
+  <div class="container">
+  <img src="C:\\recipebookk\\delish.png" alt="Your Company Logo" class="center"></div>
+  <form action="/recipe" method="post">
+    <label for="recipeName">Recipe Name:</label><br>
+    <input type="text" id="recipeName" name="recipeName"><br>
+    <label for="ingredients">Ingredients:</label><br>
+    <textarea  id="ingredients" name="ingredients" rows="10" cols="50"></textarea><br>
+    <label for="howToCook">How to Cook:</label><br>
+    <textarea id="howToCook" name="howToCook" rows="10" cols="50"></textarea><br>
+    <label for="photo">Add Photo:</label><br>
+    <input type="file" id="photo" name="photo"><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

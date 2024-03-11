@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore South Indian Recipes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="delish.png" alt="Your Company Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="recipe main page ht.html">Home</a></li>
+        <li><a href="signinfinal.html">Recipes</a></li>
+        <li><a href="abouthyperlink.html">About</a></li>
+        <li><a href="contacthyperlink.html">Contact</a></li>
+      </ul>
+    </nav>
+    
+  </header>
+  <br>
+    <h1>Explore Recipes</h1>
+<br>
+  <input type="text"  id="searchInput" placeholder="Search recipes...">
+  <button onclick="handleSearch()">Search</button>
+<br><br>
+  <input type="number" id="timerInput" placeholder="Set timer">
+  <select id="timeUnit">
+    <option value="minutes">Minutes</option>
+    <option value="seconds">Seconds</option>
+  </select>
+  <button onclick="setTimer()">Set</button>
+  <div id="timer"></div>
+  <div id="stop"><button onclick="stopTimer()">Stop</button></div>
+  
+  <audio id="alarmSound" src="alarm.wav" preload="auto"></audio>
+  
+
+
+  <!-- Recipe containers -->
+  <div id="recipeContainer">
+      <!-- Recipe containers will be appended here -->
+  </div>
+
+  <!--<div class="search-container">
+    <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search recipes...">
+        <button type="submit" id="search-button">Search</button>
+    </form>
+</div>-->
+  <main id="recipes-container"></main>
+
+  <script src="scripts.js"></script>
+
+
+
+
+
+
+</body>
+</html>

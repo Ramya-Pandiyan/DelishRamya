@@ -1,0 +1,244 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background-image: url("table bg.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: rgba(237, 179, 179, 0.784);
+  }
+  
+  
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  
+}
+
+header h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size:25px;
+  
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+nav ul li a:hover{
+    color: rgb(4, 173, 182) ;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.auth-buttons button {
+  color:black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 180px;
+  height: 60px;
+  font-size: 25px;
+  border-color: black;
+  border-radius: 50px;
+  border-width: 10px;
+}
+
+.auth-buttons button:hover {
+  background-color: lightblue;
+  font-weight: 700;
+  width: 170px;
+
+}
+
+  
+.logo {
+  max-width: 150px; 
+  height: auto;
+}
+
+
+
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  #recipes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 50px;
+    margin-left: 80px;
+    width:80%
+  }
+  
+  .recipe {
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .recipe img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .recipe-details {
+    padding: 20px;
+  }
+  
+  .recipe-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .recipe-instructions {
+    margin-top: 10px;
+  }
+  
+  .recipe-ingredients {
+    margin-top: 10px;
+  }
+  
+  .timer {
+    margin-top: 10px;
+  }
+  
+  video {
+    width: 100%;
+    height: auto; /* This will maintain the aspect ratio */
+  }
+
+
+  .search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+input[type="text"] {
+  padding: 14px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-left: 620px;
+  background-color: rgb(255, 127, 191);
+  color: white;
+}
+
+input[type="text"]:hover{
+  background-color: #a2e0ff;
+  color: rgb(0, 0, 0);
+  
+}
+button {
+  padding: 8px 16px;
+  background-color: #70aef0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+#timerInput {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 5px;
+  margin-left: 620px;
+}
+
+#timeUnit {
+  padding: 8px;
+  font-size: 16px;
+  color: #000000;
+  
+}
+
+#timerContainer {
+  margin-top: 20px;
+  font-size: 24px;
+  margin-left: 620px;
+  color:#a2e0ff
+}
+
+#timerControls {
+  margin-top: 20px;
+  display: flex; /* Ensure that the buttons are displayed in a row */
+  align-items: center; /* Align items vertically in the center */
+  margin-left: 620px;
+}
+
+
+#stop{
+  margin-top: 10px;
+  margin-left: 620px;
+}
+
+
+
+#timer{
+  margin-left: 650px;
+}
+
+
+
+/* Assuming your logo has an ID of "logo" */
+#logo {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  
+}
+
+
+.container {
+  max-width: 150px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 100px;
+  color: white;
+}
+
+img.center {
+  display: block;
+  margin: 0 auto;
+  max-width: 130px;
+  max-height: 130px;
+
+}

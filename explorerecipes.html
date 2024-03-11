@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="explore.css">
+</head>
+<body>
+    <h1>Recipe App</h1>
+    <button onclick="window.location.href='/explore'">Explore Recipes</button>
+    <hr>
+    <h2>Add New Recipe</h2>
+    <form action="/addRecipe" method="post">
+        <label for="recipeName">Recipe Name:</label><br>
+        <input type="text" id="recipeName" name="recipeName" required><br>
+        <label for="ingredients">Ingredients:</label><br>
+        <textarea id="ingredients" name="ingredients" required></textarea><br>
+        <label for="howToCook">How to Cook:</label><br>
+        <textarea id="howToCook" name="howToCook" required></textarea><br>
+        <label for="photo">Add Photo:</label><br>
+        <input type="file" id="photo" name="photo"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
